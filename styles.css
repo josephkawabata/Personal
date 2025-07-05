@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-message {
+  font-size: 2rem;
+}
