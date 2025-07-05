@@ -3,13 +3,40 @@ body {
   color: white;
   margin: 0;
   padding: 0;
-  height: 100vh;
   font-family: Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-#main-message {
+.container {
+  max-width: 600px;
+  margin: 5rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
   font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#projects h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
