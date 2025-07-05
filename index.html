@@ -2,22 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Joseph's Website</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Website</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>hello, my name is Joseph</h1>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><a href="https://example.com/project1" target="_blank">Project 1</a></li>
-        <li><a href="https://example.com/project2" target="_blank">Project 2</a></li>
-        <!-- Add more projects here -->
-      </ul>
-    </section>
+  <header id="site-header">
+    <span id="name">Joseph Kawabata</span>
+    <img src="https://via.placeholder.com/40" alt="Profile Picture" id="profile-pic" />
+  </header>  
+  <h1 id="welcome-message">Welcome to my website!</h1>
+  <p id="description">
+    This is where you can write a short description of your website — who you are, what this site is for, or anything else you'd like to say.
+  </p>  
+  
+    <div id="projects">
+      <h2>Projects:</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://josephkawabata.github.io/mathpractice/" target="_blank">Math Skills Trainer</a></td>
+            <td>Math practice web app with trigonometry, algebra, and more.</td>
+          </tr>
+          <tr>
+            <td><a href="https://docs.google.com/spreadsheets/d/1mECb5aCkA_ar5_D8zKTuBmdPTSBsgu0Aiv0Pz6En9fo/edit?gid=0#gid=0" target="_blank">Dollar Cost Averaging Calculator</a></td>
+            <td>Description coming soon.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>    
   </div>
 
   <script src="script.js"></script>
